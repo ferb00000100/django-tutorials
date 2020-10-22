@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{%  block title %}Rumble Audit{% endblock %}
+{% block content %}
+<h2>Instance Results</h2>
+<ul>
+    <li>
+        Instance Names: <strong>{{ names }}</strong>
+    </li>
+    <li>
+        Addresses are: <strong>{{ addresses }}</strong>
+    </li>
+    <li>
+        Detected by: <strong>{{ detected_by }}</strong>
+    </li>
+    <li>
+        Services: {{ services }}
+    </li>
+    <li>
+        ID: {{ id }}
+    </li>
+</ul>
+
+
+{% endblock %}

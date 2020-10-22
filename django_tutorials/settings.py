@@ -26,6 +26,7 @@ SECRET_KEY = 'oax-l1*g2_^t7zorysjb^!52ru9v5ej=4z3_ikn*q!eaoyg9zp'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+RUMBLE_KEY = 'OTD4FCB9535F2F4841A1DDAB1F952A'
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_tut',
 ]
 
 MIDDLEWARE = [
